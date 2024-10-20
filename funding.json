@@ -20,8 +20,8 @@
         "url": "https://vision.vansh.one"
       },
       "repositoryUrl": {
-        "url": "https://github.com/vansh-one/vision",
-        "wellKnown": "https://github.com/vansh-one/vision/.well-known/funding-manifest-urls"
+        "url": "https://github.com/vansh-one/Vision",
+        "wellKnown": "https://github.com/vansh-one/Vision/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:Apache-2.0"],
       "tags": ["artificial-intelligence", "machine-learning", "data"]
