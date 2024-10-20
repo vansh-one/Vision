@@ -8,8 +8,7 @@
     "phone": "",
     "description": "Vision Technologies creates cutting-edge AI foundational models. Its current flagship project, Vision AI, is a state-of-the-art multimodal large transformer model that understands and generates text, images, and audio while being culturally aware of Indian values and supporting all regional languages.",
     "webpageUrl": {
-      "url": "https://vision.vansh.one",
-      "wellKnown": "https://vision.vansh.one/.well-known/funding-manifest-urls"
+      "url": "https://vision.vansh.one"
     }
   },
   "projects": [
@@ -25,7 +24,7 @@
         "wellKnown": "https://github.com/vansh-one/vision/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:Apache-2.0"],
-      "tags": ["ai", "multimodal", "transformers", "open-source", "Indian-culture", "regional-languages", "state-of-the-art"]
+      "tags": ["artificial-intelligence", "machine-learning", "data"]
     }
   ],
   "funding": {
