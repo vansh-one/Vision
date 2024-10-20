@@ -1,5 +1,15 @@
 {
-  "version": "v1.0.0",
+  "id": 0,
+  "guid": "",
+  "version": "",
+  "url": "",
+  "meta": {},
+  "status": "",
+  "status_message": null,
+  "crawl_errors": 0,
+  "crawl_message": null,
+  "created_at": "0001-01-01T00:00:00Z",
+  "updated_at": "0001-01-01T00:00:00Z",
   "entity": {
     "type": "individual",
     "role": "owner",
@@ -8,8 +18,7 @@
     "phone": "",
     "description": "Vision Technologies creates cutting-edge AI foundational models. Its current flagship project, Vision AI, is a state-of-the-art multimodal large transformer model that understands and generates text, images, and audio while being culturally aware of Indian values and supporting all regional languages.",
     "webpageUrl": {
-      "url": "https://vision.vansh.one",
-      "wellKnown": "https://github.com/vansh-one/vision"
+      "url": "https://vision.vansh.one"
     }
   },
   "projects": [
@@ -21,24 +30,34 @@
         "url": "https://vision.vansh.one"
       },
       "repositoryUrl": {
-        "url": "https://github.com/vansh-one/vision",
-        "wellKnown": "https://github.com/vansh-one/vision/.well-known/funding-manifest-urls"
+        "url": "https://github.com/vansh-one/Vision",
+        "wellKnown": "https://github.com/vansh-one/Vision/blob/main/.well-known/funding-manifest-urls"
       },
-      "licenses": ["spdx:Apache-2.0"],
-      "tags": ["ai", "multimodal", "transformers", "open-source", "Indian-culture", "regional-languages", "state-of-the-art"]
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "ai",
+        "multimodal",
+        "transformers",
+        "open-source",
+        "Indian-culture",
+        "regional-languages",
+        "state-of-the-art"
+      ]
     }
   ],
   "funding": {
     "channels": [
       {
         "guid": "razorpay",
-        "type": "gateway",
+        "type": "payment-provider",
         "address": "https://razorpay.me/@Vansh",
         "description": "Support Vision Technologies via Razorpay to contribute directly to the development of Vision AI. This gateway is preferred for users in India."
       },
       {
         "guid": "paypal",
-        "type": "gateway",
+        "type": "payment-provider",
         "address": "https://www.paypal.me/Vansh1523",
         "description": "Support Vision Technologies via PayPal to contribute to Vision AI's development. Ideal for international contributors."
       }
@@ -52,7 +71,10 @@
         "amount": 50000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": ["razorpay", "paypal"]
+        "channels": [
+          "razorpay",
+          "paypal"
+        ]
       }
     ],
     "history": []
