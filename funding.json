@@ -1,0 +1,60 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Vision Technologies",
+    "email": "vansh@vansh.one",
+    "phone": "",
+    "description": "Vision Technologies creates cutting-edge AI foundational models. Its current flagship project, Vision AI, is a state-of-the-art multimodal large transformer model that understands and generates text, images, and audio while being culturally aware of Indian values and supporting all regional languages.",
+    "webpageUrl": {
+      "url": "https://vision.vansh.one",
+      "wellKnown": "https://github.com/vansh-one/vision"
+    }
+  },
+  "projects": [
+    {
+      "guid": "vision-ai",
+      "name": "Vision AI",
+      "description": "Vision AI is a state-of-the-art multimodal large transformer model designed to understand and generate text, images, and audio. It is culturally aware of Indian values and supports all regional languages. Vision AI is currently offered on a freemium plan but will transition to an open-source and free model with appropriate funding.",
+      "webpageUrl": {
+        "url": "https://vision.vansh.one"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/vansh-one/vision",
+        "wellKnown": "https://github.com/vansh-one/vision/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["spdx:Apache-2.0"],
+      "tags": ["ai", "multimodal", "transformers", "open-source", "Indian-culture", "regional-languages", "state-of-the-art"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "razorpay",
+        "type": "gateway",
+        "address": "https://razorpay.me/@Vansh",
+        "description": "Support Vision Technologies via Razorpay to contribute directly to the development of Vision AI. This gateway is preferred for users in India."
+      },
+      {
+        "guid": "paypal",
+        "type": "gateway",
+        "address": "https://www.paypal.me/Vansh1523",
+        "description": "Support Vision Technologies via PayPal to contribute to Vision AI's development. Ideal for international contributors."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "annual-development",
+        "status": "active",
+        "name": "Annual Development Support",
+        "description": "This plan will support the yearly development of Vision AI, including infrastructure, research, and developer compensation. Contributions will ensure the project transitions to open-source and becomes freely available.",
+        "amount": 50000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": ["razorpay", "paypal"]
+      }
+    ],
+    "history": []
+  }
+}
